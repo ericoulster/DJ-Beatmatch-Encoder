@@ -66,18 +66,4 @@ with os.scandir(dj_directory) as it:
 
 print(result_list)
 
-"""
-for entry in os.scandir(dj_directory):
-    if re_pat.search(entry.name) is not None and entry.is_file():
-        for result in result_list:
-            os.rename(os.path.join(dj_directory, entry.name), os.path.join(dj_directory, result))
-# other attempt
-
-def name_encoder(i, newname):
-        os.rename(
-            os.path.join(dj_directory, i.name),
-            os.path.join(dj_directory, newname)
-            )
-"""
-
 # notes: current version doesn't support 'irregular' characters
