@@ -9,7 +9,7 @@ base_bpm = 130
 
 
 # current directory
-dj_directory = r'C:\Users\Ewic\Desktop\5 Track Stall'
+dj_directory = r'' # put your directory between single quotes
 os.chdir(dj_directory)
 
 #initializing lists
