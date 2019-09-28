@@ -1,6 +1,6 @@
 # DJ-Beatmatch-Encoder
 
-This is a project I designed entirely for personal use (though I figured I may as well upload it, in case anyone wants to take the fundamental idea and work with it).
+This is a project I designed for personal use, though I figured it was worth uploading, both to explain the paradigm with DJ'ing and in case anyone shares my workflow.
 
 When designing musical DJ sets to perform, I use the software 'Mixed In Key' to determine my music's fundamental key & the beats-per-minute (bpm) of each song
 
