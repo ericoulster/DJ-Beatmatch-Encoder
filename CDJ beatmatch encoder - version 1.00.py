@@ -5,7 +5,7 @@ import os
 re_pat = re.compile('\s-\s\d{2,3}\.')
 
 # current BPM
-base_bpm = 130
+base_bpm = 130 # Change based on DJ Set's BPM
 
 
 # current directory
@@ -66,4 +66,4 @@ with os.scandir(dj_directory) as it:
 
 print(result_list)
 
-# notes: current version doesn't support 'irregular' characters
+# notes: current version doesn't support 'irregular' characters outside of UTF-8
