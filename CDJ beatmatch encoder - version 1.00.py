@@ -23,7 +23,7 @@ result_list = []
 # bpm function for converting a raw BPM into a percentage difference from the DJ set's BPM
 def interval_calculation(track_bpm, base_bpm):
     if base_bpm == track_bpm:
-        calculation = 0
+        calculation = "0"
     elif base_bpm > track_bpm:
         calculation = ("+" + str(round((
             ((base_bpm - track_bpm)/track_bpm) * 100), 2))
@@ -67,3 +67,4 @@ with os.scandir(dj_directory) as it:
 print(result_list)
 
 # notes: current version doesn't support 'irregular' characters outside of UTF-8
+
